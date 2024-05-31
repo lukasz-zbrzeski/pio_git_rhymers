@@ -8,7 +8,7 @@ public class IntLinkedList {
 
     private static final int VALUE = -1;    // Constant representing the return value for an empty list
     private Node last;                      // The last node in the list
-    private int i;
+    private int i;                          // TODO: This variable 'i' is declared but not used. Consider removing if it's unnecessary.
 
     /**
      * Adds a new element to the end of the list.
@@ -43,7 +43,7 @@ public class IntLinkedList {
      * @return {@code false}
      */
     public boolean isFull() {
-        return false;
+        return false; // TODO: Consider removing this method if the list is not intended to be bounded.
     }
 
     /**
